@@ -1,0 +1,61 @@
+body{
+    font-family: "dejavu";
+}
+nav{
+    background-color: #2D9C7B;
+    padding: 0em;
+}
+
+.nav_links{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: horizontal;
+    padding: 0;
+}
+.nav_links a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    
+}
+#paginas{
+    display: flex;
+    flex-direction: horizontal;
+}
+.pagina{
+    padding: 0.5em;
+    margin: 0.5em 0.5em 0.5em 0.5em;
+    background-color: #3FDBAC;
+    border-radius: 0.3em;
+}
+li{
+    list-style-type: none;
+    margin: none;
+    padding: none;
+}
+.tabla-palabras{
+    border-collapse: collapse;
+    margin: auto;
+    min-width: 500px;
+    border-radius: 5px;
+}
+.tabla-palabras thead tr {
+    background-color: #2D9C7B;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+}
+.tabla-palabras th,
+.tabla-palabras td{
+    padding:12px 15px;
+    margin: 1em;
+}
+
+.tabla-palabras tbody tr{
+    border-bottom: 1px solid #ddd;
+
+}
+
+.tabla-palabras tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
