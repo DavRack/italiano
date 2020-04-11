@@ -2,8 +2,9 @@ body{
     font-family: "dejavu";
 }
 nav{
-    background-color: #2D9C7B;
+    background-color: #262626;
     padding: 0em;
+    border-radius: 0em 0em 0.7em 0.7em;
 }
 
 .nav_links{
@@ -14,9 +15,14 @@ nav{
 }
 .nav_links a{
     text-decoration: none;
-    color: #000;
+    color: #fff;
+    font-size: 1.2em;
     font-weight: bold;
+    transition: 0.2s;
     
+}
+.nav_links a:hover{
+    color: #21C465;
 }
 #paginas{
     display: flex;
@@ -25,7 +31,6 @@ nav{
 .pagina{
     padding: 0.5em;
     margin: 0.5em 0.5em 0.5em 0.5em;
-    background-color: #3FDBAC;
     border-radius: 0.3em;
 }
 li{
