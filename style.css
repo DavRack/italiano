@@ -1,10 +1,14 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: "dejavu";
+    margin: 0em;
 }
 nav{
     background-color: #262626;
     padding: 0em;
-    border-radius: 0em 0em 0.7em 0.7em;
+    border-radius: 0em 0em 0.4em 0.4em;
 }
 
 .nav_links{
@@ -12,6 +16,8 @@ nav{
     justify-content: space-between;
     flex-direction: horizontal;
     padding: 0;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 .nav_links a{
     text-decoration: none;
@@ -32,6 +38,10 @@ nav{
     padding: 0.5em;
     margin: 0.5em 0.5em 0.5em 0.5em;
     border-radius: 0.3em;
+}
+.texto{
+    margin: 1em;
+    padding: 1em;
 }
 li{
     list-style-type: none;
